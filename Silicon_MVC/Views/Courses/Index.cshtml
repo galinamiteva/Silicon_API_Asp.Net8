@@ -1,0 +1,14 @@
+﻿
+@model IEnumerable<CourseEntity>
+
+@{
+    ViewData["Title"] = "Courses";
+}
+<a asp-action="Create" asp-controller="Courses">New Course</a>
+@foreach (var course in Model)
+{
+    <div>
+        <h2>@course.Title</h2>
+        <p></p>
+    </div>
+}

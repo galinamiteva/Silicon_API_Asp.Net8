@@ -1,0 +1,6 @@
+@Silicon_ASP_NET_API_HostAddress = http://localhost:5269
+
+GET {{Silicon_ASP_NET_API_HostAddress}}/api/
+Accept: application/json
+
+###
